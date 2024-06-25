@@ -1,0 +1,240 @@
+ /* styles.css */
+/* styles.css */
+.layout-frame {
+    width: 100%;
+    max-width: 13200px; /* Set a maximum width for larger screens */
+    height: 40; /* Allow the height to adjust based on content */
+    margin: 0 auto; /* Center the element horizontally */
+    position: relative; /* Use relative positioning instead of absolute */
+    overflow: hidden; /* Hide overflow content */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  /* Optional: Add media queries to adjust the design for different screen sizes */
+  @media (max-width: 768px) {
+    .layout-frame {
+      max-width: 100%; /* Adjust the width for smaller screens */
+    }
+  }
+  .navbar {
+    width: 100% !important;
+    border-radius: 20px;
+    color: white;
+    text-align:100px;
+    position: fixed;
+    top: 0;
+    z-index: 100; 
+  
+  }
+  .colored-text {
+      color: red; /* You can replace "red" with your desired color */
+    }
+  
+  .navbar-content {
+    display: flex;
+    align-items: center;
+    position: fixed;
+
+    text-align:100px;
+    max-width: 1200px;
+    margin-left: 1490px;
+    padding: 10px 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+    box-sizing: border-box;
+    position: top;
+    top: 0;
+    border-radius: 200px;
+    z-index: 100; 
+  }
+ 
+
+    
+ 
+.navbar a {
+  text-decoration: none;
+  color: #EC3729 ;
+  padding: 10px 15px;
+  margin-right: 20px; 
+  
+}
+
+
+.navbar a:last-child {
+  margin-right: 0;
+}
+
+.navbar .nav-item .nav-link:hover +.dropdown-menu a {
+  color: white !important;
+}
+
+  
+ tt{
+    background-color: #EC3729;
+    text-decoration-color:red  ;
+ }
+ 
+ 
+ 
+ body{
+    /* background-image: url(./images/24.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+ } 
+.d-flex{
+    padding-left :400px;
+  
+
+
+}
+.butt{
+    display: inline-block;
+    padding: 10px 20px; /* Adjust the padding to control the button size */
+    font-size: 26px; /* Adjust the font size */
+    font-weight: bold;
+    text-align: center;
+    text-decoration: red;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    background-color: red; /* Primary button color */
+  color: #fff;
+  }
+  .gradient {
+    background: linear-gradient(50deg, #FA3F31 ,#F1F1F1);
+  }
+
+.pppp{
+    height: 88px;
+    font-weight: 400;
+    font-size: 1.0em; 
+    
+}
+.logo  {
+size-adjust: small;
+position: right;
+margin-left: 30px;
+margin-right: 80px;
+
+}
+
+.Navbar{
+    opacity: 0.9px;
+
+}
+
+.image{
+position: left ;
+
+}
+.home{
+    margin-right: 80px;
+    
+    color: white;
+    font-size: 25px;
+}
+.home:hover{
+    color: black;
+}
+.igg{
+    padding-left :1300px;
+     
+}
+.card-content .content-block .bg {
+    padding: 10px;
+    margin: 100px;
+    border-bottom: 1px solid #e6e6e6;
+    width: 400px;
+    height: 400px;
+    opacity: 0.6000;
+
+    size-adjust: small;
+
+
+
+}
+
+
+.hi{
+    
+    padding-left :100px;
+    padding-top: 20px;
+    padding-bottom: px;
+   
+}
+
+
+.lo{
+    margin-top: -147px;
+}
+
+.cards-title{
+text-align: center;
+}
+
+.para{
+    padding: 20px;
+
+
+}
+.cards-title{
+
+    margin: 10px;
+}
+
+.lgg{
+
+    text-align: center;
+    border-collapse: collapse;
+    margin: 10px;
+
+}
+.trr{
+    width:100px ;
+    height: 40px;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.pp{
+    color: red;
+   margin: 20px;
+   text-align: center;
+padding-left: 20px;
+}
+
+
+.slider{
+    min-height: 700px;
+
+ margin-left: 150px; 
+
+
+}
+
+
+
+.input{
+    background-color: papayawhip;
+    padding-right: 100px;
+    margin-left: 20px; 
+}
+
+
+.mapp{
+    background-color: black;
+    margin: 180px;
+}
+
+.tabb{
+    background-color: black;
+    margin: 180px;
+    padding-left : 200px;
+}
+
+
+.navbar .nav-item .nav-link:hover +.dropdown-menu a {
+  color: white !important;
+}
